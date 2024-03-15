@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Food Items</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input[type=text] {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+        }
+          input[type=text]:focus {
+            border: 1px solid #555;
+        }
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            border: 1px dotted blue; 
+            width: 75%; 
+            margin-right: 50px;
+            margin-left: 50px;
+            background-color: lightcyan  
+        }
+        .menuGroup {
+            background-color: lightcyan;  
+        }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          tr:nth-child(even) {
+            background-color: #dddddd;
+          }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <H1>Food Ordering System</H1>
+    </div>
+    <div class="main">
+        <div class="container">
+          <b>All Food Items</b>
+          <table>
+              <tr>
+                <th>Item #</th>
+                <th>Item Name</th>
+                <th>Description</th>
+                <th>Is Available</th>
+                <th>Is Vegetarian</th>
+                <th>Category</th>
+                <th>Cuisine</th>
+                <th>Image</th>
+                <th>Action</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Veg Pizza</td>
+                <td>Veg includes onion, tomato, capsicum</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Pizza</td>
+                <td>Italian</td>
+                <td><img src="../images/vegpizza.jpg"></img></td>
+                <td><a href=add_fooditem.html><button type="submit" class="edit">Edit</button></a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Hot & Sour Soup</td>
+                <td>Made with mushrooms, tofu, spring onion and chicken</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Pizza</td>
+                <td>Italian</td>                
+                <td><img src="../images/hotsour.jpg"></img></td>
+                <td><a href=add_fooditem.html><button type="submit" class="edit">Edit</button></a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>lasagna Sandwich</td>
+                <td>Bacon, Muzzarela, Sour Cream, white bread</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Pizza</td>
+                <td>Italian</td>
+                <td><img src="../images/lasagnasand.jpg"></img></td>
+                <td><a href=add_fooditem.html><button type="submit" class="edit">Edit</button></a></td>
+              </tr>
+          </table>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            <a href="admin_page.html">Go back to Admin Page</a><br>
+            <BR>
+            <h6>
+                Mockup application used for layout and navigation validation<BR>
+                There is no data persistence, data is not saved
+            </h6>
+        </p>
+    </div>
+</body>
+</html>

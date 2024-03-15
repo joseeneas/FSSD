@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Order Admin Page</title>
+        <style>
+            body {
+                margin           : 0;
+                padding          : 0;
+                box-sizing       : border-box;
+                font-family      : Arial, Helvetica, sans-serif;
+            }
+            .main {
+                display          : flex;
+                justify-content  : center;
+                align-items      : center;
+            }
+            .container {
+                border           : 1px dotted blue; 
+                width            : 25%; 
+                margin-right     : 50px;
+                margin-left      : 50px;
+                background-color : lightcyan  
+            }
+            .menuGroup {
+                background-color : lightcyan;  
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <H1>Food Ordering System</H1>
+        </div>
+        <div class="main">
+            <div class="container">
+                <h2>Admin Page</h2>
+                <div class="menuGroup">
+                <b>Food Items</b>
+                <ul>
+                        <li><a href="list_fooditems.html">View Food Items</a></li>
+                        <li><a href="add_fooditem.html">Add Food Item</a></li>
+                    </ul>
+                </div>
+                <div class="menuGroup">
+                <b>Cuisines</b>
+                <ul>
+                        <li><a href="list_cuisines.html">View Cuisines</a></li>
+                        <li><a href="add_cuisine.html">Add Cuisine</a></li>
+                    </ul>
+                </div>
+                <div class="menuGroup">
+                <b>Categories</b>
+                <ul>
+                        <li><a href="list_categories.html">View Categories</a></li>
+                        <li><a href="add_category.html">Add Category</a></li>
+                    </ul>
+                </div>
+                <div class="menuGroup">
+                    <b>Restaurants</b>
+                    <ul>
+                        <li><a href="list_restaurants.html">View Restaurants</a></li>
+                        <li><a href="add_restaurant.html">Add Restaurant</a></li>
+                    </ul>
+                </div>
+                <div class="menuGroup">
+                    <b>Orders</b>
+                    <ul>
+                        <li><a href="list_orders.html">View Orders</a></li>
+                    </ul>
+                </div>
+                <div class="menuGroup">
+                    <b>Users</b>
+                    <ul>
+                        <li><a href="list_users.html">View Users</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h6>
+                Mockup application used for layout and navigation validation<BR>
+                There is no data persistence, data is not saved
+            </h6>
+        </div>
+    </body>
+</html>

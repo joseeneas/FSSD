@@ -1,0 +1,82 @@
+body{
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.col{
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(204, 14, 14);
+    flex-basis: 20rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: dimgrey;
+    font-weight: bold;
+}
+
+a:hover{
+    color:blue;
+}
+
+
+h1, h2{
+    color: rgb(93, 93, 210);
+    text-align: center;
+    
+}
+
+.card-title{
+    padding: 0%;
+    margin-top: 0%;
+}
+
+form{
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px gray;
+    border-collapse: collapse;
+}
+
+.table{
+    border-spacing: 2rem;
+    box-shadow: 0 0 8px gray;
+    border-collapse: collapse;
+}
+
+th{
+    padding-top: 2rem;
+    text-align: left;
+}
+
+td, th{
+    padding-left: 2rem;
+}
+
+button{
+    background-color: rgb(93, 93, 210);
+    border: none;
+    padding: 0.7rem;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px gray;
+    margin: 1.5rem;
+    cursor: pointer;
+}

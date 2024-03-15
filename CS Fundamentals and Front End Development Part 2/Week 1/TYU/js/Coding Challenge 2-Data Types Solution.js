@@ -1,0 +1,10 @@
+var x=1;
+var y=2.71888;
+var c="H";
+var s="Hello world";
+var b=true;
+console.log(typeof x);
+console.log(typeof y);
+console.log(typeof c);
+console.log(typeof s);
+console.log(typeof b);

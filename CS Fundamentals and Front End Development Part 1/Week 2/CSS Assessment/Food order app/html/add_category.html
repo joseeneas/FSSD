@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Category</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="header">
+        <H1>Food Ordering System</H1>
+    </div>
+    <div class="main">
+        <div class="container">
+            <form action="" id="addCategory">
+                <h1>Add Category</h1>
+                <hr>
+                <table>
+                    <tr>
+                        <td><label for="category">Category Name:</label></td>
+                        <td><input type="text" name="category" id="category" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="desc">Category Description:</label></td>
+                        <td><textarea name="desc" id="desc" cols="30" rows="5" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="is_active">Is Active</label></td>
+                        <td><input type="checkbox" name="is_active" id="is_active"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="url">Image URL</label></td>
+                        <td><input type="text" name="url" id="url" required></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><button type="reset" class="discard">Discard</button></td>
+                        <td><button type="submit" class="save">Save</button></td>
+                    </tr>
+                </table>
+
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            <a href="../index.html">Go back to Admin Page</a><br>
+            <BR>
+            <h6>
+                Mockup application used for layout and navigation validation<BR>
+                There is no data persistence, data is not saved
+            </h6>
+        </p>
+    </div>
+</body>
+</html>

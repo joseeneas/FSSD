@@ -1,0 +1,27 @@
+tr:nth-of-type(even){
+    background-color: rgb(54, 52, 52);
+
+}
+
+th{
+    background-color: black;
+    padding: 2rem;
+    
+}
+
+td{
+    padding: 2rem;
+}
+
+img{
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+img:hover{
+    /* width: 140px;
+    height: 140px; */
+    cursor: pointer;
+    transform: scale(1.2);
+    /* transition: ease-out; */
+}

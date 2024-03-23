@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.time-body {
+    background-color: rgb(7, 26, 43);
+    display: inline-block;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px 3px rgb(233, 154, 154);
+    padding: 3% 8%;
+    width: 25%;
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+button{
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    padding-right: 2%;
+    font-size: 1rem;
+}
+
+button:hover{
+    font-size: 1.2rem;
+    color: rgb(233, 154, 154);;
+    transition: 0.3s ease;
+
+}

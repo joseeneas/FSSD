@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="myHeading">Sample Web page</h1>
+
+    <div class="container">
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, maxime.</p>
+            <p class="specialparas">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, nihil.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, maxime!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, perspiciatis.</p>
+            <p class="specialparas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quaerat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nemo.</p>
+        </div>
+
+        <div class="box">
+            <img id="Img" class="one"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2006_Ojiya_balloon_festival_011.jpg/270px-2006_Ojiya_balloon_festival_011.jpg"
+                alt="">
+            <a id="hyperlink">Hot Air Balloon</a>
+        </div>
+
+        <div class="box">
+            <ul id="parentList">
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <table id="mytable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ron</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Harry</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>Hermione</td>
+                        <td>12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="box">
+            <form id="myForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="Fullname">Fullname:</label>
+                <input type="text" id="fullname" name="fullname">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

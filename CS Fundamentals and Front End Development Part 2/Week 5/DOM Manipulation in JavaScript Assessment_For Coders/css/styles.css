@@ -1,19 +1,17 @@
 
 body{
-    font-family: sans-serif;
+    font-family     : Arial, Helvetica, sans-serif;
     background-color: white;
 }
-
 .container{
     margin: 5rem;
 }
-
 .section, #form-container{
   background-color: rgb(215, 243, 243);
-  padding: 1.5rem;
-  border-radius: 10px;
-  margin: 2rem;
-  box-shadow: 2px 0px 8px gray;
+  padding         : 1.5rem;
+  border-radius   : 10px;
+  margin          : 2rem;
+  box-shadow      : 2px 0px 8px gray;
 }
 
 h1, h2{
@@ -37,7 +35,7 @@ h1, h2{
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    font-size: large;
+    font-size: normal;
 
 }
 
@@ -55,7 +53,6 @@ span{
     text-align: center;
     padding: 0.5rem;
 }
-
 
 table{
     margin: auto;

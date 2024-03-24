@@ -1,3 +1,9 @@
+// ****************************************************
+// Author: Jose Eneas da Silva Maria
+// Date: 2024-03-24
+// This is the secondary script file for the project
+// Projects are fictional and are used for educational purposes only
+// ****************************************************
 var projects = [
   {
     id: 1,

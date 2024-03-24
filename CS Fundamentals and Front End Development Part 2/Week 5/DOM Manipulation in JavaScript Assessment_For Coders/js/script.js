@@ -1,5 +1,16 @@
-// This function should retrieve all the project objects from projects array.
-// It should then traverse over the array to create individual cards displaying each project details.
+// ****************************************************
+// Author: Jose Eneas da Silva Maria
+// Date: 2024-03-24
+// This is the main script file for the project
+// ****************************************************
+
+// ****************************************************
+// function loadProjects()
+// This function should retrieve all the project objects 
+// from projects array.
+// It should then traverse over the array to create 
+// individual cards displaying each project details.
+// ****************************************************
 function loadProjects() {
   // Get the projects array from the projects.js file
   // Traverse over the projects array
@@ -20,13 +31,21 @@ function loadProjects() {
     document.getElementById("projects").appendChild(card);
   }
 }
-// This function should return the projectId of the new project
+// ****************************************************
+// function newProjectId()
+// This function should return the projectId of the 
+// new project
+// ****************************************************
 function newProjectId() {
   // Get the projects array from the projects.js file, and return the length of the array plus 1
   var newId = projects.length + 1;
   return newId;
 }
-// This function should save the new project details to the projects array
+//********************************************************
+// function saveNewProject()  
+// This function should save the new project details to 
+// the projects array
+//********************************************************
 function saveNewProject() {
   // Create the new projectId by calling the newProjectId() function
   // Get the new project details by using the DOM elements
@@ -50,3 +69,7 @@ function saveNewProject() {
   document.getElementById("desc").value = "";
   document.getElementById("image").value = "";
 }
+// ****************************************************
+// End of the script.js file
+// Path: js/projects.js
+// ****************************************************

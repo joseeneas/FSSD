@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetElementByIDAndClass</title>
+</head>
+
+<body>
+    <h2 class="header">
+        This is demo h2 heading.We will use this element to perform various operation on it using JS code.
+    </h2>
+    <h3 class="header">
+        This is demo h3 heading.We will use this element to perform various operation on it using JS code.
+    </h3>
+    <p class="paragraph">
+        This is the first demo paragraph.It has content to apply various js operation on it.
+    </p>
+    <p class="paragraph">
+        This is the second demo paragraph.It has content to apply various js operation on it.
+    </p>
+     <div id="div">
+        This is a demo div.It doesn't have any further child tags inside it till now.
+    </div>
+    <script>
+    var h2  = document.getElementsByClassName('header')
+    var p   = document.getElementsByClassName('paragraph')
+    var div = document.getElementById('div')
+    for (var i = 0; i < p.length; i++) { 
+        console.log(p[i]); p[i].innerText = "PARAGRAPH"; 
+    } 
+    for (var i = 0; i < h2.length; i++) { 
+        h2[i].innerText = "HEADING"; 
+    } 
+    div.innerHTML = '<h1>THis heading is inserted using JS CODE</h1>';
+    </script>
+</body>
+</html>

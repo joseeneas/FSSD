@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css access by JS Code</title>
+</head>
+<body>
+    <script>
+        document.documentElement.innerHTML="<h1 id='header'>This is a demo header inserted in an empty body html page using js code</h1>";
+        var h1=document.getElementById('header');
+        h1.style.color='Yellow';
+        h1.style.fontSize='78px';
+    </script>
+</body>
+</html>
+
+
